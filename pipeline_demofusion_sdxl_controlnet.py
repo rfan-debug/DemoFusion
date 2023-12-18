@@ -47,7 +47,6 @@ from diffusers.utils import (
 )
 from diffusers.utils.torch_utils import is_compiled_module, randn_tensor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
-from diffusers.pipelines.stable_diffusion_xl import StableDiffusionXLPipelineOutput
 
 
 if is_invisible_watermark_available():
